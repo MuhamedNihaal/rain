@@ -1,0 +1,17 @@
+.raindrop {
+  position: absolute;
+  width: 2px; /* Adjust size as needed */
+  height: 10px; /* Adjust size as needed */
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-10px); /* Start above the grid */
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh); /* Continue falling beyond bottom */
+    opacity: 0;
+  }
+}

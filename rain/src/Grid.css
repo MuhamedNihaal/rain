@@ -1,0 +1,17 @@
+.grid {
+  position: relative;
+  width: 100%; /* Adjust grid width */
+  height: 100vh; /* Adjust grid height */
+  background-color: black; /* Adjust grid background */
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  position: relative;
+  width: 20px; /* Adjust cell size */
+  height: 20px; /* Adjust cell size */
+  background-color: transparent; /* Adjust cell background */
+}
